@@ -191,6 +191,7 @@ publish/
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
 PublishScripts/
+temp_auto_push.bat
 
 # NuGet Packages
 *.nupkg
@@ -366,11 +367,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -386,8 +382,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-.vscode/settings.json
 .DS_Store
 
 # Desktop.ini (Google Drive info file)
-desktop.ini
+desktop.ini.gitignore
+branch_structure.json
